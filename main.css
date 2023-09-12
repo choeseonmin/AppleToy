@@ -1,0 +1,60 @@
+.navbar-brand {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.center-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh; /* 화면 높이에 맞추려면 필요 */
+        }
+        
+/* .center-buttons {
+            margin: 50px;
+        } */
+.button1 {
+    width: 500px;
+    height: 500px;
+    margin-right: 60px;
+}
+
+.button2 {
+    width: 500px;
+    height: 500px;
+
+}
+
+.image-hover:hover{
+    filter: brightness(0.8)
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    background-color: #efefef;
+    color: #fff;
+    width: 100%;
+    padding: 20px;
+}
+.footer-group {
+    display: flex; /* 이미지를 가로로 나열하기 위해 Flexbox를 사용합니다. */
+    justify-content: center; /* 이미지 그룹을 가로로 중앙에 배치합니다. */
+    align-items: center; /* 이미지 그룹을 세로로 중앙에 배치합니다. */
+
+}
+
+.footer img {
+    width: 150px; /* 이미지의 가로 크기를 조절합니다. 필요한 크기로 변경하세요. */
+    height: auto; /* 이미지의 세로 크기는 자동으로 조정됩니다. */
+    border-radius: 50px; /* 이미지의 모서리를 둥글게 만듭니다. 필요한 값으로 변경하세요. */
+    display: flex;
+    margin-right: 60px; /* 이미지를 가로 중앙으로 정렬합니다. */
+}
+
+.image-name{
+    display: flex; /* Flexbox를 사용하여 이미지와 텍스트를 가로로 정렬합니다. */
+    flex-direction: column; /* 요소들을 세로로 나열합니다. */
+    align-items: center; /* 요소들을 수직 방향으로 가운데 정렬합니다. */
+    text-align: center; /* 텍스트를 가운데 정렬합니다. */
+}
