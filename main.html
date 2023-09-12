@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="c:\Users\user\Pictures\Screenshots\스크린샷 2023-09-12 094909.png" alt="로고"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">로그인</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">회원가입</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  마이페이지
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">???</a></li>
+                  <li><a class="dropdown-item" href="#">???</a></li>
+                  <li><a class="dropdown-item" href="#">???</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+
+
+      <!-- 아이콘 생성 -->
+      <div class="center-buttons">
+        <a href="링크1.html" class="image-hover">
+            <img src="c:\Users\user\Pictures\Screenshots\choonsik.jpg" alt="버튼 1" class="button1">
+        </a>
+        <a href="링크2.html" class="image-hover">
+            <img src="c:\Users\user\Pictures\Screenshots\lion1.png" alt="버튼 2" class="button2">
+        </a>
+    </div>
+
+    <footer>
+        <div class="footer">
+            <p>푸터 내용을 여기에 추가하세요.</p>
+        </div>
+    </footer>
+    
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>
+
+<style>
+.navbar-brand {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.center-buttons {
+    display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; /* 화면 높이에 맞추려면 필요 */
+        }
+        
+/* .center-buttons {
+            margin: 50px;
+        } */
+.button1 {
+    width: 500px;
+    height: 500px;
+    margin-right: 60px;
+}
+
+.button2 {
+    width: 500px;
+    height: 400px;
+
+}
+
+.image-hover:hover{
+    filter: brightness(0.8)
+}
+
+.footer {
+    background-color: #dadada; /* 네비게이션 바와 동일한 배경 색을 지정합니다 */
+            color: #fff; /* 푸터 텍스트 색상 (흰색) */
+            padding: 40px; /* 푸터 내부 여백 설정 */
+
+}
+</style>
